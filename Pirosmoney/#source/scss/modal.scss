@@ -10,13 +10,23 @@
 		border-radius: 26px;
 		padding: 30px 42px 34px;
 		position: relative;
-		
+
+		.modal-body {
+			padding: 0;
+		}
 
 		.close {
+			width: 60px;
+			height: 70px;
 			color: #00AC4E;
 			position: absolute;
-			top: 15px;
-			right: 19px;
+			top: -5px;
+			right: 0;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
 		}
 
 		.modal-body {
@@ -92,7 +102,7 @@
 					background: #FCFCFC;
 					border: 0.873181px solid #EBEBEB;
 					box-sizing: border-box;
-					border-radius: 5.91549px;
+					border-radius: 6px;
 					padding: 0 20px 0 49px;
 					font-weight: normal;
 					font-size: 12.2245px;
@@ -112,6 +122,49 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+.modal-big {
+	width: 654px;
+	max-width: 654px;
+
+	.modal-content {
+		padding: 40px 56px 27px;
+
+		.booking-top {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 18px;
+			text-align: center;
+			color: #000000;
+			margin-bottom: 3px;
+		}
+
+		.form {
+			.inpb {
+				&.d-flex {
+					input {
+						width: 253px;
+					}
+				}
+
+				input {
+					padding-left: 17px;
+					font-size: 14px;
+
+					&.center {
+						text-align: center;
+					}
+				}
+			}
+
+			.btn-big{
+				height: 52px;
+				line-height: 52px;
+			}
+			
 		}
 	}
 }
