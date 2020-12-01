@@ -1,4 +1,4 @@
-<!-- Modal -->
+<!-- Modal-login -->
 <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -27,8 +27,51 @@
 		</div>
 	</div>
 </div>
-<!-- Modal-big -->
-<div class="modal fade" id="booking" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+<!-- Modal-register-->
+<div class="modal fade" id="register" role="dialog"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-reg" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">
+				<img src="../img/icons/close.svg" alt="">
+			</button>
+			<div class="modal-body">
+				<div class="top-modal">
+					<img src="../img/icons/login-person.svg" alt="">
+					<div class="modal-name">Регистрация</div>
+				</div>
+				<div class="form">
+					<form action="" method="POST">
+						<div class="inpb">
+							<input class="phone" name="phone" type="text" placeholder="Телефон">
+						</div>
+						<div class="inpb">
+							<input class="pass" name="phone" type="text" placeholder="Пароль">
+						</div>
+						<div class="inpb">
+							<input class="pass" name="phone" type="text" placeholder="Подтвердите пароль">
+						</div>
+						<div class="check-block">
+							<div class="line">
+								<input type="checkbox" id="r-mail">
+								<label for="r-mail">Хочу получать выгодные предложения от магазина</label>
+							</div>
+							<div class="line">
+								<input type="checkbox" checked id="r-pol">
+								<label for="r-pol">Принимаю условия <a href="">Пользовательского соглашения</a>, <a href="">Политики конфиденциальности</a></label>
+							</div>
+						</div>
+						<button>Зарегистрироваться</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal-booking -->
+<div class="modal fade" id="booking" role="dialog"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-big" role="document">
 		<div class="modal-content">
 			<button type="button" class="close" data-dismiss="modal">
@@ -56,3 +99,4 @@
 		</div>
 	</div>
 </div>
+
