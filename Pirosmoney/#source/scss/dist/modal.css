@@ -1,5 +1,5 @@
 .modal-dialog {
-  width: 358px;
+  max-width: 384px;
   background: #FFFFFF;
   box-shadow: 0px 0px 17.7465px rgba(0, 0, 0, 0.12);
   border-radius: 26px;
@@ -11,11 +11,20 @@
   padding: 30px 42px 34px;
   position: relative;
 }
+.modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
 .modal-dialog .modal-content .close {
+  width: 60px;
+  height: 70px;
   color: #00AC4E;
   position: absolute;
-  top: 15px;
-  right: 19px;
+  top: -5px;
+  right: 0;
+}
+.modal-dialog .modal-content .close img {
+  width: 100%;
+  height: 100%;
 }
 .modal-dialog .modal-content .modal-body {
   padding-bottom: 0px;
@@ -77,10 +86,10 @@
 .modal-dialog .modal-content .form .inpb input {
   width: 100%;
   height: 50.64px;
-  background: #FCFCFC;
-  border: 0.873181px solid #EBEBEB;
+  background: #f3f3f366;
+  border: 0.8px solid #e8e8e869;
   box-sizing: border-box;
-  border-radius: 5.91549px;
+  border-radius: 6px;
   padding: 0 20px 0 49px;
   font-weight: normal;
   font-size: 12.2245px;
@@ -92,29 +101,102 @@
   background-position: 18px center;
 }
 .modal-dialog .modal-content .form .inpb input.phone {
-  background-image: url(/img/icons/pop-phone.svg);
+  background-image: url(/Pirosmoney/img/icons/pop-phone.svg);
 }
 .modal-dialog .modal-content .form .inpb input.pass {
-  background-image: url(/img/icons/pop-kee.svg);
+  background-image: url(/Pirosmoney/img/icons/pop-kee.svg);
+}
+.modal-dialog .modal-content .form .inpb input.mail {
+  background-image: url(/Pirosmoney/img/icons/modal-mail-min.svg);
 }
 
-.modal-big {
-  width: 654px;
+.modal-reg .check-block {
+  margin-bottom: 38px;
 }
-.modal-big .modal-content {
+.modal-reg .check-block .line {
+  display: flex;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  color: #C6C6C6;
+  margin-bottom: 15px;
+}
+.modal-reg .check-block .line label {
+  margin-left: 15px;
+}
+.modal-reg .check-block .line input {
+  position: relative;
+  display: none;
+}
+.modal-reg .check-block .line input:checked ~ label:before {
+  background: #00AC4E;
+  border: 2px solid #FCFCFC;
+}
+.modal-reg .check-block .line input ~ label {
+  position: relative;
+  margin-left: 30px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.modal-reg .check-block .line input ~ label a {
+  color: #00AC4E;
+}
+.modal-reg .check-block .line input ~ label:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #FCFCFC;
+  border-radius: 50%;
+  border: 2px solid #EBEBEB;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.modal-booking {
+  width: 654px;
+  max-width: 654px;
+}
+.modal-booking .modal-content {
   padding: 40px 56px 27px;
 }
-.modal-big .modal-content .booking-top {
+.modal-booking .modal-content .booking-top {
   font-weight: 500;
   font-size: 24px;
   line-height: 18px;
   text-align: center;
   color: #000000;
+  margin-bottom: 3px;
 }
-.modal-big .modal-content .form .inpb input {
+.modal-booking .modal-content .form .inpb.d-flex input {
+  width: 253px;
+}
+.modal-booking .modal-content .form .inpb input {
   padding-left: 17px;
   font-size: 14px;
 }
-.modal-big .modal-content .form .inpb input.center {
+.modal-booking .modal-content .form .inpb input.center {
   text-align: center;
+}
+.modal-booking .modal-content .form .btn-big {
+  height: 52px;
+  line-height: 52px;
+}
+
+.modal-sub {
+  min-width: 455px;
+}
+.modal-sub .modal-content .modal-body .top-modal {
+  margin-bottom: 20px;
+}
+.modal-sub .modal-content .modal-body .top-modal img {
+  margin: 30px 10px 20px 10px;
+}
+.modal-sub .modal-content .modal-body .top-modal .modal-name {
+  font-size: 22.1657px;
+  line-height: 125%;
+  text-align: center;
+  color: #000000;
 }

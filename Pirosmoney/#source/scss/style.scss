@@ -20,118 +20,6 @@ body {
 	background: white !important;
 }
 
-
-header {
-	background: #FFFFFF;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
-	position: relative;
-	z-index: 9;
-
-	.navbar-brand {
-		margin-right: 38px;
-	}
-
-	nav {
-		width: 100%;
-		height: 100px;
-	}
-
-	.dropdown-menu {
-		background: #FFFFFF;
-		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
-		border-radius: 12px;
-		border: none;
-		padding: 56px 0 0;
-		position: relative;
-		top: -17px;
-		margin: 0;
-		z-index: 0;
-
-		.dropdown-item {
-			font-size: 10.6604px;
-			line-height: 13px;
-			color: #333333;
-			padding: 5px 20px 9px 26px;
-			display: flex;
-			align-items: center;
-
-			span {
-				margin-right: 8px;
-				width: 20px;
-				display: inline-block;
-				text-align: center;
-			}
-		}
-	}
-
-	.navbar-light .navbar-nav {
-		.nav-item {
-			&.active {
-				.nav-link {
-					color: #00AC4E;
-				}
-			}
-
-			&.dropdown {
-				a {
-					position: relative;
-					z-index: 1;
-				}
-			}
-
-			.nav-link {
-				font-weight: 500;
-				font-size: 18px;
-				line-height: 22px;
-				color: #333333;
-				padding: 0 22px;
-
-				&:hover {
-					color: #00ac4e;
-				}
-			}
-		}
-	}
-
-	.dropdown-toggle::after {
-		display: none;
-	}
-
-	.menu-right {
-		align-items: center;
-
-		.menu-contact {
-			margin-right: 35px;
-
-			a {
-				font-weight: 500;
-				font-size: 18px;
-				line-height: 21px;
-				color: #000000;
-				text-decoration: none;
-
-				img {
-					margin-right: 5px;
-				}
-			}
-		}
-
-		.menu-user {
-
-			a,
-			button {
-				margin-left: 30px;
-			}
-
-			button {
-				background: none;
-				border: none;
-				padding: 0;
-			}
-		}
-	}
-}
-
 .home-banner {
 	padding-top: 60px;
 	padding-bottom: 25px;
@@ -193,7 +81,7 @@ header {
 		.swiper-button-next:after,
 		.swiper-container-rtl .swiper-button-prev:after {
 			content: '';
-			background-image: url(../img/icons/right-arrow.svg);
+			background-image: url(/Pirosmoney/img/icons/right-arrow.svg);
 			width: 14px;
 			height: 24px;
 		}
@@ -268,7 +156,7 @@ header {
 			margin-bottom: 56px;
 
 			.img {
-				background-image: url(..../img/productbg.png);
+				background-image: url(/Pirosmoney/img/productbg.png);
 				background-color: #E6E6E6;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -303,13 +191,13 @@ header {
 
 			.rating {
 				span {
-					background: url(..../img/icons/star.svg);
+					background: url(/Pirosmoney/img/icons/star.svg);
 					width: 13px;
 					height: 13px;
 					display: inline-block;
 
 					&.active {
-						background: url(..../img/icons/star-green.svg);
+						background: url(/Pirosmoney/img/icons/star-green.svg);
 					}
 				}
 			}
@@ -388,7 +276,7 @@ header {
 	.video1440 {
 		width: 1440px;
 		margin: 0 auto;
-		background-image: url(../img/videobg.jpg);
+		background-image: url(/Pirosmoney/img/videobg.jpg);
 		background-size: cover;
 
 		.embed-responsive {
@@ -415,7 +303,7 @@ header {
 		box-shadow: 0px 0px 18.0727px rgba(0, 0, 0, 0.03);
 		border-radius: 18.0727px;
 		padding: 30px 0 30px 40px;
-		background-image: url(../img/bus.png);
+		background-image: url(/Pirosmoney/img/bus.png);
 		background-position: center right;
 		background-repeat: no-repeat;
 
@@ -439,133 +327,6 @@ header {
 			display: block;
 			text-align: center;
 			margin-top: 34px;
-		}
-	}
-}
-
-footer {
-	background: #00AC4E;
-	padding: 34px 0;
-	color: #FFFFFF;
-
-	a {
-		color: #FFFFFF;
-
-		&:hover {
-			text-decoration: none;
-			color: #FFFFFF;
-		}
-	}
-
-	.footer-wrapper {
-		display: flex;
-		justify-content: space-between;
-
-		.footer-left {
-			.phones {
-				display: flex;
-				justify-content: space-between;
-
-				.phone-item {
-					display: flex;
-					flex-direction: column;
-					margin-right: 30px;
-
-					&:last-child {
-						margin-right: 0px;
-					}
-
-					span {
-						font-weight: 400;
-						font-size: 12.3407px;
-						line-height: 32px;
-					}
-
-					a {
-						font-weight: 500;
-						font-size: 18.511px;
-						line-height: 39px;
-
-						&:hover {
-							text-decoration: none;
-						}
-					}
-				}
-			}
-
-			.work-time {
-				font-weight: 400;
-				font-size: 15.4259px;
-				line-height: 32px;
-				margin: 10px 0;
-			}
-
-			.work-email {
-				display: flex;
-				flex-direction: column;
-
-				a {
-					font-weight: 400;
-					font-size: 18.511px;
-					line-height: 32px;
-				}
-
-				a.site-help {
-					font-weight: 500;
-					font-size: 18px;
-					line-height: 22px;
-					text-decoration-line: underline;
-					margin-top: 15px;
-				}
-			}
-		}
-
-		.footer-center {
-			.social {
-				display: flex;
-				flex-direction: column;
-
-				a {
-					font-weight: 500;
-					font-size: 15.4259px;
-					line-height: 32px;
-					letter-spacing: 3.08517px;
-					font-variant: small-caps;
-					text-transform: uppercase;
-					margin-bottom: 26px;
-				}
-			}
-		}
-
-		.footer-right {
-			.person {
-				a {
-					display: flex;
-					align-items: center;
-					font-weight: 500;
-					font-size: 15.4259px;
-					line-height: 32px;
-
-					img {
-						margin-right: 7px;
-					}
-				}
-			}
-		}
-	}
-
-	.footer-bottom {
-		font-family: TT "Hoves";
-		margin-top: 9px;
-		font-weight: normal;
-		font-size: 12.3407px;
-		line-height: 32px;
-
-		a {
-			font-weight: normal;
-			font-size: 12.3407px;
-			line-height: 32px;
-			margin-left: 33px;
 		}
 	}
 }
@@ -697,7 +458,7 @@ footer {
 			height: 427px;
 			background: #F9F9F9;
 			border-radius: 15px;
-			background-image: url(../img/card-bg.png);
+			background-image: url(/Pirosmoney/img/card-bg.png);
 			background-position: center;
 			background-repeat: no-repeat;
 
@@ -730,13 +491,13 @@ footer {
 				margin-bottom: -16px;
 
 				span {
-					background: url(..../img/icons/star.svg);
+					background: url(/Pirosmoney/img/icons/star.svg);
 					width: 13px;
 					height: 13px;
 					display: inline-block;
 
 					&.active {
-						background: url(..../img/icons/star-green.svg);
+						background: url(/Pirosmoney/img/icons/star-green.svg);
 					}
 				}
 			}
@@ -856,7 +617,7 @@ footer {
 
 				.cart-add {
 					border: none;
-					background-image: url(../img/icons/shopping-cart2.svg);
+					background-image: url(/Pirosmoney/img/icons/shopping-cart2.svg);
 					background-position: center;
 					background-repeat: no-repeat;
 					width: 49px;
@@ -1012,13 +773,13 @@ footer {
 											display: flex;
 
 											span {
-												background: url(..../img/icons/star.svg);
+												background: url(/Pirosmoney/img/icons/star.svg);
 												width: 12px;
 												height: 12px;
 												background-size: cover;
 
 												&.active {
-													background: url(..../img/icons/star-green.svg);
+													background: url(/Pirosmoney/img/icons/star-green.svg);
 													background-size: cover;
 												}
 											}
@@ -1172,4 +933,6 @@ footer {
 }
 
 //<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
+@import "header.scss";
+@import "footer.scss";
 @import "modal.scss";
