@@ -330,3 +330,74 @@
 		}
 	}
 }
+
+
+.modal-reviews {
+	max-width: 418px !important;
+
+	.modal-body {
+		.rev-top {
+			font-weight: 500;
+			font-size: 20.0411px;
+			line-height: 29px;
+			color: #000000;
+			margin-bottom: 16px;
+		}
+
+		.form {
+			.line-rev {
+				display: flex;
+				align-items: center;
+
+				&:last-of-type {
+					align-items: flex-start;
+				}
+
+				.rating {
+					line-height: 13px;
+
+					span {
+						background: url(/Pirosmoney/img/icons/star.svg);
+						width: 13px;
+						height: 13px;
+						display: inline-block;
+
+						&.active {
+							background: url(/Pirosmoney/img/icons/star-green.svg);
+						}
+					}
+				}
+
+				b {
+					font-weight: normal;
+					font-size: 11px;
+					line-height: 14px;
+					color: #000000;
+					width: 75px;
+				}
+
+				input {
+					width: 177px !important;
+					height: 33px !important;
+					color: #000000;
+					padding: 0 16px 0 10px !important;
+				}
+
+				textarea {
+					width: 245px;
+					height: 100px;
+					padding: 10px 16px 0 10px;
+					border: 1px solid #EBEBEB;
+					font-weight: normal;
+					font-size: 12px;
+					line-height: 14px;
+					color: #C6C6C6;
+				}
+			}
+
+			.btn-big {
+				margin: 25px auto 0;
+			}
+		}
+	}
+}
