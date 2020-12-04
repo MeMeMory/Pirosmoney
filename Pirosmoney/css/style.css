@@ -1483,3 +1483,17 @@ footer .footer-bottom a {
 .modal-reviews .modal-body .form .btn-big {
 	margin: 25px auto 0;
 }
+
+.modal-recovery .btn-block-2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.modal-recovery .btn-block-2 .decline {
+	font-weight: 500;
+	color: #00AC4E !important;
+	background: none !important;
+}
