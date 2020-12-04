@@ -28,7 +28,7 @@
 	</div>
 </div>
 
-<!-- Modal-register-->
+<!-- Modal-register -->
 <div class="modal fade" id="register" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog modal-reg" role="document">
@@ -70,7 +70,6 @@
 		</div>
 	</div>
 </div>
-
 
 <!-- Modal-booking -->
 <div class="modal fade" id="booking" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -121,6 +120,111 @@
 							<input class="mail" name="mail" type="text" placeholder="E-mail">
 						</div>
 						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal-check-phone -->
+<div class="modal fade" id="check-phone" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog modal-check" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">
+				<img src="/Pirosmoney/img/icons/close.svg" alt="">
+			</button>
+			<div class="modal-body">
+				<div class="top-modal">
+					<img src="/Pirosmoney/img/icons/login-person.svg" alt="">
+					<div class="modal-name">Подтвердите номер телефона</div>
+				</div>
+				<div class="form">
+					<form action="" method="POST">
+						<div class="inpb digit">
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+						</div>
+						<div class="send-check ">
+							<!-- смена состояния при добавлении класа active -->
+							<span>Отправить повторно</span><b>1:59</b>
+							<button>Далее</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal-reviews -->
+<div class="modal fade" id="reviews" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-reviews" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">
+				<img src="/Pirosmoney/img/icons/close.svg" alt="">
+			</button>
+			<div class="modal-body">
+				<div class="rev-top">Добавить отзыв</div>
+				<div class="form">
+					<form action="" method="POST">
+						<div class="line-rev">
+							<b>Ваша оценка:</b>
+							<div class="rating">
+								<span class="active"></span>
+								<span class="active"></span>
+								<span class="active"></span>
+								<span class="active"></span>
+								<span class="active"></span>
+							</div>
+						</div>
+						<div class="inpb line-rev">
+							<b>Ваше имя:</b>
+							<input class="" name="" type="text" placeholder="">
+						</div>
+						<div class="inpb line-rev">
+							<b>Ваш отзыв:</b>
+							<textarea name=""></textarea>
+						</div>
+						<button class="btn-big">Добавить отзыв</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="recovery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-recovery" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">
+				<img src="/Pirosmoney/img/icons/close.svg" alt="">
+			</button>
+			<div class="modal-body">
+				<div class="top-modal">
+					<img src="/Pirosmoney/img/icons/login-person.svg" alt="">
+					<div class="modal-name">Войти в личный кабинет</div>
+				</div>
+				<div class="form">
+					<form action="" method="POST">
+						<div class="inpb">
+							<input class="phone" name="phone" type="text" placeholder="Введите телефон">
+						</div>
+						<div class="inpb">
+							<input class="pass" name="pass" type="text" placeholder="Новый пароль (мин. 6 символов)">
+						</div>
+						<div class="inpb">
+							<input class="pass" name="pass" type="text" placeholder="Подтвердите пароль">
+						</div>
+						<div class="btn-block-2">
+							<button class="decline" data-dismiss="modal" aria-label="Close" >Отменить</button>
+							<button>Обновить пароль</button>
+						</div>
 					</form>
 				</div>
 			</div>
