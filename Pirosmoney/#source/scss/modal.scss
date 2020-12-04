@@ -253,3 +253,80 @@
 		}
 	}
 }
+
+.modal-check {
+	.form {
+		.inpb {
+			&.digit {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 200px;
+				margin: 0 auto;
+
+				input {
+					background: #FCFCFC;
+					border: 1px solid #EBEBEB;
+					box-sizing: border-box;
+					border-radius: 5px;
+					width: 33px;
+					height: 47px;
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 16px;
+					text-align: center;
+					color: #000000;
+					padding: 0;
+				}
+
+				span {
+					width: 7px;
+					height: 1px;
+					background: #343E48;
+					margin: 0 6px;
+				}
+			}
+		}
+
+		.send-check {
+			text-align: center;
+
+			&.active {
+				button {
+					background: #00AC4E;
+				}
+
+				span {
+					color: #00AC4E;
+				}
+
+				b {
+					display: none;
+				}
+			}
+
+			span {
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 18px;
+				text-align: center;
+				text-decoration-line: underline;
+				color: #BDBDBD;
+			}
+
+			b {
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 18px;
+				text-align: center;
+				color: #000000;
+				margin-left: 10px;
+			}
+
+			button {
+				margin-top: 30px;
+				background: #E0E0E0;
+			}
+		}
+	}
+}

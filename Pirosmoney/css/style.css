@@ -1353,3 +1353,71 @@ footer .footer-bottom a {
 	text-align: center;
 	color: #000000;
 }
+
+.modal-check .form .inpb.digit {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 200px;
+	margin: 0 auto;
+}
+.modal-check .form .inpb.digit input {
+	background: #FCFCFC;
+	border: 1px solid #EBEBEB;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 5px;
+	width: 33px;
+	height: 47px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 16px;
+	text-align: center;
+	color: #000000;
+	padding: 0;
+}
+.modal-check .form .inpb.digit span {
+	width: 7px;
+	height: 1px;
+	background: #343E48;
+	margin: 0 6px;
+}
+.modal-check .form .send-check {
+	text-align: center;
+}
+.modal-check .form .send-check.active button {
+	background: #00AC4E;
+}
+.modal-check .form .send-check.active span {
+	color: #00AC4E;
+}
+.modal-check .form .send-check.active b {
+	display: none;
+}
+.modal-check .form .send-check span {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	color: #BDBDBD;
+}
+.modal-check .form .send-check b {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	color: #000000;
+	margin-left: 10px;
+}
+.modal-check .form .send-check button {
+	margin-top: 30px;
+	background: #E0E0E0;
+}

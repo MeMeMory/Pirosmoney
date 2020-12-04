@@ -21,7 +21,7 @@
 		<button data-toggle="modal" data-target="#subscription">subscription</button>
 		<button data-toggle="modal" data-target="#register">register</button>
 		<button data-toggle="modal" data-target="#login">login</button>
-		<button data-toggle="modal" data-target="#subscription">subscription</button>
+		<button data-toggle="modal" data-target="#check-phone">check-phone</button>
 <header>
 	<nav class="navbar navbar-expand-lg navbar-light ">
 		<div class="container">
@@ -681,6 +681,41 @@
 							<input class="mail" name="mail" type="text" placeholder="E-mail">
 						</div>
 						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="check-phone" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog modal-check" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">
+				<img src="/Pirosmoney/img/icons/close.svg" alt="">
+			</button>
+			<div class="modal-body">
+				<div class="top-modal">
+					<img src="/Pirosmoney/img/icons/login-person.svg" alt="">
+					<div class="modal-name">Подтвердите номер телефона</div>
+				</div>
+				<div class="form">
+					<form action="" method="POST">
+						<div class="inpb digit">
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+							<span></span>
+							<input name="" type="text" maxlength="1">
+						</div>
+						<div class="send-check ">
+							<!-- смена состояния при добавлении класа active -->
+							<span>Отправить повторно</span><b>1:59</b>
+							<button>Далее</button>
+						</div>
 					</form>
 				</div>
 			</div>
